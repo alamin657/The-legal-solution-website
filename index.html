@@ -37,7 +37,7 @@
 <nav class="bg-white dark:bg-gray-900 border-gray-200 px-2 sm:px-4 py-2.5  ">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
     <a href="https://flowbite.com/" class="flex items-center">
-        <img src="images/logo.png" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
+        <img src="images/logo2.png" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
     </a>
     <div class="flex md:order-2">      
 <!-- Modal toggle -->
@@ -80,7 +80,7 @@
   <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
     <span class="sr-only">Open main menu</span>
     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-</button>
+  </button>
     </div>
     <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
       <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
@@ -104,21 +104,22 @@
     </div>
   </nav>
   <!-- main header -->
-    <section class=" bg-red-500 mt-14 h-screen bg-[url('./images/banner.png')] bg-cover w-full">
+    <section class="  mt-14 h-screen bg-[url('./images/banner.png')] bg-cover w-full">
         <div>
             <div class="garamond w-1/2 mx-auto text-center pt-40">
                 <h1 class=" text-white text-7xl">We Provide Effective</h1>
                 <h1 class=" text-white text-7xl">Legal Solutions</h1>
                 <p class="text-whitecolor pt-7">A general legal service for all types of legal matters, <br> At reasonable and competitive rates.</p><br>
-                    <button class=" py-2.5 px-5  bg-white rounded">Search your service</button>
-                    <button class="bg-white px-5 py-2.5 rounded">Search</button>     
+                <div>
+                  <input class="pr-24 p-4  rounded" type="search" name="search" placeholder="search your service" id="">
+                  <button class="bg-consultation mt-5 rounded text-white p-5 px-8">search</button>
+                </div>
             </div>
         </div>
     </section>
     </header>
     <main>
       <!-- the legal practise area -->
- 
      <section class="mt-20">
             <div class="text-center garamond">
               <h1 class="text-4xl">The Legal Practice Area</h1>
@@ -135,13 +136,13 @@
                 <img class="mx-auto" src="images/criminal.png" alt="">
                 <h3 class="text-2xl">Criminal Law</h3>
                 <p>Criminal Lawyers Toronto. Quality Results in 1 Minute or Less! Search for Criminal Lawyers Toronto. Instant and Personalized Results. The Best Resources. Always Facts. Results & Answers.</p>
-                <img  class="mx-auto" src="images/Frame.png" alt="">
+                <img  class="mx-auto mt-4" src="images/Frame.png" alt="">
               </div>
               <div class="text-center border-b-2  p-6">
                 <img class="mx-auto" src="images/child.png" alt="">
                 <h3 class="text-2xl">Child Support</h3>
                 <p>Child support  is an ongoing, periodic payment made by a parent for the financial benefit of a child  following the end of a marriage or other similar relationship.</p>
-                <img  class="mx-auto" src="images/Frame.png" alt="">
+                <img  class="mx-auto mt-4" src="images/Frame.png" alt="">
               </div>
               <div class="text-center border-r-2  p-6">
                 <img class="mx-auto" src="images/education.png" alt="">
@@ -159,7 +160,7 @@
                 <img class="mx-auto" src="images/tax.png" alt="">
                 <h3 class="text-2xl">Tax Law</h3>
                 <p>Tax law or revenue law is an area of legal study in which public or sanctioned authorities, such as federal, state and municipal governments  to assess and collect taxes in a legal context. </p>
-                <img class="mx-auto" src="images/Frame.png" alt="">
+                <img class="mx-auto mt-4" src="images/Frame.png" alt="">
               </div>
             </div>
       </section>
@@ -171,14 +172,13 @@
         </div>  
     </section>
      <!-- carousel -->
-    <section class="mt-10">
-      
+    <section class="mt-10">     
 <div id="default-carousel" class="relative" data-carousel="static">
   <!-- Carousel wrapper -->
   <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
        <!-- Item 1 -->
-      <div class="hidden duration-700 ease-in-out bg-[url('./images/slider-1.jpg')] h-full w-full bg-cover bg-center garamond text-center" data-carousel-item>
-          <img class="w-20 mx-auto mt-20" src="images/man-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      <div class="hidden duration-700 ease-in-out bg-[url('./images/slider-1.jpg')] h-full w-full bg-cover bg-center garamond text-center pt-4" data-carousel-item>
+          <img class="w-20 mx-auto  md:mt-20" src="images/man-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
           <h1 class="text-2xl text-white">Awlad Hossain</h1>
           <p class="text-white">UX Designer</p>
           <p class="text-white w-1/2 mx-auto pt-5">The UX designer role is to make a product or service usable, enjoyable, and accessible. While many companies design user experiences, the term is most often associated with digital design for websites and apps.</p>
@@ -188,7 +188,7 @@
           <img class="w-20 mx-auto mt-20" src="images/man-2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
           <h1 class="text-2xl text-white">Al Amin</h1>
           <p class="text-white">Web Devloper</p>
-          <p class="text-white w-1/2 mx-auto pt-5">A web developer is a programmer who develops World Wide Web applications using a client–server model. The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server.</p>
+          <p class="text-white w-1/2 mx-auto pt-5">A web developer is a programmer who develops World Wide Web applications using a client server model. The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server.</p>
       </div>
       <!-- Item 3 -->
       <div class="hidden duration-700 ease-in-out bg-[url('./images/slider-1.jpg')] h-full w-full bg-cover bg-center garamond text-center " data-carousel-item>
@@ -227,11 +227,10 @@
       </div>
       <!-- accordion -->
       <div class="mt-10 px-16">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-         
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">      
 <div id="accordion-collapse" data-accordion="collapse">
   <h2 id="accordion-collapse-heading-1">
-    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800  dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 rounded-t-xl " data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
       <span>1.what is flexbox and grid difference?</span>
       <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
     </button>
@@ -254,7 +253,7 @@
     </div>
   </div>
   <h2 id="accordion-collapse-heading-3">
-    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500  dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
       <span>3.what is box model of css?</span>
       <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
     </button>
@@ -264,14 +263,13 @@
       <p class="mb-2 text-gray-500 dark:text-gray-400">The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content</p>
     </div>
   </div>
-  <!-- frequently 4 -->
   <h2 id="accordion-collapse-heading-4">
-    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500  dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
       <span>4.What is semantic tag?</span>
       <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
     </button>
   </h2>
-  <div id="accordion-collapse-body-4 class="hidden" aria-labelledby="accordion-collapse-heading-4">
+  <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
     <div class="p-5 font-light">
       <p class="mb-2 text-gray-500 dark:text-gray-400">The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages. <br>
       Examples of non-semantic: div and span <br>
@@ -281,7 +279,7 @@
   </div>
 </div>
 <div>
-  <img  src="images/faq.png" alt="">
+  <img class="w-80" src="images/faq.png" alt="">
 </div>
       </div>
     </div>
@@ -292,8 +290,8 @@
         <h1 class="text-4xl ">Contact With Us</h1>
           <p class="mt-5">A complete search of the internet has found these results  contact us is the <br> most popular phrase on the web.</p>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 mt-14">
-        <div class="grid grid-cols-2 mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 mt-14 mx-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 mx-auto">
         <div class="border-b-2 border-r-2  bg-slate-100 p-5">
           <img class="mx-auto" src="images/address.png" alt="">
           <h1  class="text-2xl text-center mt-4">Address</h1>
@@ -319,7 +317,7 @@
            <p> Sunday: 9AM to  1PM</p>
         </div>
       </div>
-        <div>
+        <div class="mr-14 mt-10">
           <input class="rounded bg-slate-100 px-28 pl-4 py-4 " type=" your name" placeholder="your name">
           <input class=" block mt-7 rounded bg-slate-100 px-28 pl-4 py-4" type=" your name" placeholder="your email">
           <input class=" block mt-7 rounded bg-slate-100 px-28 pl-4 py-4" type=" your name" placeholder="subject">
@@ -361,12 +359,11 @@
               <h1 class="text-2xl">Subscribe</h1>
               <p  class="mt-8">Subscribe for our latest & <br> Articles. We Wont Give You <br> Spam Mails</p>
               <div class="relative mt-4">
-                <input class="rounded" type="email" placeholder="Email address">
+                <input class="rounded text-black" type="email" placeholder="Email address">
                 <button class=" absolute bg-consultation right-0 p-2 pl-6 border rounded"><i class="fa-brands fa-telegram"></i></button>
               </div>
             </div>
           </div>
-        
     </footer>
 </body>
 </html>
